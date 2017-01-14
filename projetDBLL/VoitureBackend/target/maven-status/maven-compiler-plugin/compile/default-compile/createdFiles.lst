@@ -1,0 +1,9 @@
+com\dbll\Marques_.class
+com\dbll\Voitures.class
+com\dbll\service\MarquesFacadeREST.class
+com\dbll\service\AbstractFacade.class
+com\dbll\NewCrossOriginResourceSharingFilter.class
+com\dbll\service\ApplicationConfig.class
+com\dbll\Marques.class
+com\dbll\service\VoituresFacadeREST.class
+com\dbll\Voitures_.class

@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background: url(design/bg.jpg) top center repeat;
+      border:0;
+      font:13px Arial, Helvetica, sans-serif;
+      color:#323232;
+      line-height:17px;
+      width: 100% !important;
+      height: 100% !important;
+      margin: 0;
+}
+
+
+.intro {
+	 
+	width: 100%;
+	padding: 0;
+	 background: url(design/movingFILTER.jpg) no-repeat center center ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+header .slogan {
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 280px;
+	
+}
+
+nav{
+	background:url(design/bg_form.gif);
+	font:24px "Franklin Gothic Heavy", "Franklin Gothic Demi Cond", "Franklin Gothic Medium", "Franklin Gothic Medium Cond";
+	height:70px;
+	}
+#marques{
+            padding: 100px 0 60px 0;
+        }
+#contact{
+            padding: 10%;
+               }
+footer {
+    background-color: #323232;
+    height: 50px;
+    position: static;
+    padding-top:31px;
+        text-align:center;
+        line-height:18px;
+        color:#fff }
+a{
+    cursor: pointer;
+}

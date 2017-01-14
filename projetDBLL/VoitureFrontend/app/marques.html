@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Marques</title>
+<!--CSS-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="marques">
+ <div class="container">
+   <center>
+    <div class="row">
+       <h1> Les Voitures {{selected}} </h1>  
+       <img src="design/break-b.png" width="250" height="15"> 
+     </div>
+      
+       <table align="center">
+           <tr ng-repeat="voiture in tousVoitures">
+               <td><img src="{{voiture.image_v}}" width="150"></td>
+               <td>{{voiture.nom_v}}</td>
+               <td>{{voiture.prix}}</td>
+           </tr>
+       </table>
+       
+      </center>
+    </div>
+    </div>
+</body>
+</html>
